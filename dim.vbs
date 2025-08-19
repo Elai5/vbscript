@@ -12,3 +12,5 @@ Function add()
 End Function
 
 Msgbox "this is declared on script level "&  var1
+Msgbox "this is declared at script level " & var2
+Msgbox "var3 has no scope outside the procedure. Prints empty" & var3
